@@ -240,3 +240,33 @@ nav{
 }
 
  /* my next target section */
+
+ .my-next-target {
+
+                margin: 100px 148px;  
+                border-radius: 10px;
+                
+ 
+ }
+
+ .target-container-2 {
+
+                margin-top: 48px;
+                display: block;
+                              
+                
+ }
+
+ .block-container4 {
+
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                margin-bottom: 24px;
+                padding: 40px;  
+                border: 1px solid #0D1321;
+                border-radius: 10px;
+
+ }
+
+
