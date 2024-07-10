@@ -4,6 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   color: #0D1321;
+  line-height: 26px;
 }
 
 /* Shared Style */
@@ -22,8 +23,38 @@
                 box-sizing: 2px;
                 border-radius: 5px;
                 background-color: white;
+}
 
+.btn-style-2 {
+                margin-top: 24px;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+              
+}
 
+.btn-style-3 {
+                font-family: "Azeret Mono", monospace;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 17px 40px;
+                box-sizing: 2px;
+                background-color: white;
+                margin-bottom: 40px;
+
+}
+
+.section-title {
+                font-size: 32px;
+                font-weight: 800;
+                color: #0D1321;
+                text-align: center;
+}
+
+.div-title {
+                font-size: 24px;
+                line-height: 32px;
 }
 
 /* Nav Styles */
@@ -57,25 +88,82 @@ nav{
 .banner-title {
                 font-size: 48px;
                 font-weight: 800;
-                margin-top: 32px;
+                margin-top: 28px;
+                line-height: 60px;
 
 }
 
 .banner-description {
-                font-size: 16px;
-                font-weight: 400;
-                margin-top: 24px;
+                margin-top: 16px;
 
 }
 
-.btn-style-2 {
-                margin-top: 32px;
-                background-color: black;
-                color: white;
-                text-decoration: none;
 
+/* Section Styles */
+
+.why-web-development {
+
+               margin: 80px 148px;  
+               border-radius: 10px;
+               background: rgb(13, 19, 33, 0.03) ;
+               padding: 80px 144px;
+
+}
+
+.section-title {
+                margin-bottom: 50px;
+}
+
+.section-description {
+                text-align: center;
+
+}
+
+/* section div 1 */
+
+.div-1 {
+                display: flex;
+                align-items: center;
+                margin-top: 40px;
+                justify-content: space-between;
+                padding: 60px;
+                background-color: rgb(255, 255, 255, 0.7);
+                border-radius: 10px;
+
+}
+
+.section-div-1 {
+                max-width: 50%;
+                padding: 20px 20px 0px 40px;
+
+}
+
+.div-description {
+                margin-bottom: 30px;
+}
+            
+/* section div 2 */
+
+.div-2 {
+                display: flex;
+                align-items: center;
+                margin-top: 40px;
                 
+                padding: 60px;
+                background-color: rgb(255, 255, 255, 0.7);
+                border-radius: 10px;
+
 }
 
+/* section div 3 */
 
+.div-3 {
+                display: flex;
+                align-items: center;
+                margin-top: 40px;
+                justify-content: space-between;
+                padding: 60px;
+                background-color: rgb(255, 255, 255, 0.7);
+                border-radius: 10px;
 
+}
