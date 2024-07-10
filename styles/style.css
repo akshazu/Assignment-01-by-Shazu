@@ -170,7 +170,7 @@ nav{
 
 /* My Inspiration Section */
 
-.my-nspiration {
+.my-inspiration {
 
                 margin: 100px 148px;  
                 border-radius: 10px;
@@ -194,4 +194,49 @@ nav{
                 border-radius: 10px;
  }
 
- /*  */
+ /* my current target section */
+
+ .my-current-target {
+
+                margin: 100px 148px;  
+                border-radius: 10px;
+                
+ 
+ }
+
+ .target-container {
+
+                margin-top: 48px;
+                display: flex;
+                gap: 48px;
+                
+ }
+
+ .block-container1 {
+                padding: 40px;
+                background-color: rgb(255, 76, 30, 0.05);
+                border-radius: 10px;
+ }
+
+ .block-container2 {
+                padding: 40px;
+                background-color: rgb(0, 76, 232, 0.05);
+                border-radius: 10px;
+ }
+
+ .block-container3 {
+                padding: 40px;
+                background-color: rgb(255, 223, 0, 0.05);
+                border-radius: 10px;
+ }
+
+ .skills-title {
+                font-size: 24px;
+ }
+
+.learn-more {
+                font-weight: 600;
+                color: #0D1321;
+}
+
+ /* my next target section */
