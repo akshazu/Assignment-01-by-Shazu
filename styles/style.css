@@ -8,7 +8,7 @@
 
 /* Shared Style */
 
-.color-gray{
+.color-gray {
                 color: #0D1321;
 }
 /* button styles */
@@ -36,6 +36,46 @@ nav{
 
 }
 
+/* Banner Styles */
+
+.banner {
+                display: flex; 
+                padding: 40px 0px;
+                text-align: center;
+                background-image: url('../assets/Hero-bg.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+
+}
+
+.banner-content {
+                margin: 26px 221px 26px 221px;
+
+}
+
+.banner-title {
+                font-size: 48px;
+                font-weight: 800;
+                margin-top: 32px;
+
+}
+
+.banner-description {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 24px;
+
+}
+
+.btn-style-2 {
+                margin-top: 32px;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+
+                
+}
 
 
 
